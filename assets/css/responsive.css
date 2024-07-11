@@ -1,0 +1,359 @@
+@media only screen and (min-width: 1400px) {
+
+    .banner h1,
+    .sm-banner h1 {
+        font-size: 160px;
+        line-height: 240px;
+    }
+
+    .banner .heading {
+        max-width: max-content;
+    }
+
+    .banner h2 {
+        font-size: 40px;
+    }
+
+    .cart-hover-animation h2 {
+        line-height: 150px;
+    }
+
+    .text-hover-animation {
+        height: 380px;
+    }
+
+    .video-frame video {
+        height: calc(100% - 141px);
+        width: calc(100% - 595px);
+    }
+
+    .parallax-box-sec h2 {
+        font-size: 100px;
+    }
+
+    h2.subtitle {
+        font-size: 100px;
+    }
+
+    .faq-section .faq-header::before {
+        background: linear-gradient(180deg, rgba(13, 18, 32, 1) 29%, rgba(255, 218, 45, 1) 29%);
+    }
+
+    .slide-section .comp-logo img {
+        max-width: 135px;
+        aspect-ratio: 11 / 5;
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .about-us-header.banner h1 {
+        /* font-size: 130px;
+        line-height: 155px; */
+        font-size: 100px;
+        line-height: 125px;
+    }
+
+    .price-slide h2 {
+        font-size: 100px;
+        letter-spacing: 24px;
+    }
+
+    .vid-sec-btm-bx strong {
+        font-size: 32px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .video-frame video {
+        height: calc(100% - 148px);
+        width: calc(100% - 259px);
+    }
+
+    .faq-section .faq-header h3 {
+        font-size: 44px;
+    }
+
+    .about-us-header.banner h1 {
+        font-size: 100px;
+        line-height: 155px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .video-frame video {
+        height: calc(100% - 266px);
+        width: calc(100% - 194px);
+        transform: translate(-50%, 119px);
+
+    }
+
+    .banner h1,
+    .sm-banner h1 {
+        font-size: 65px;
+        line-height: 78px;
+    }
+
+    .about-us-header.banner h1 {
+        font-size: 65px;
+        line-height: 84px;
+    }
+
+    .splash-screen .text-heading h1 {
+        font-size: 65px;
+    }
+
+    .cart-hover-animation h2 {
+        font-size: 60px;
+    }
+
+    .cart-hover-animation .card-bx-two {
+        margin-top: 60vh;
+    }
+
+    .cart-hover-animation .card-bx-three {
+        margin-top: 100vh;
+    }
+
+    h2.subtitle {
+        font-size: 60px;
+        line-height: 95px;
+    }
+
+    .faq-section .faq-header::before {
+        width: calc(100% - 0px);
+    }
+
+    footer .contact span,
+    footer .contact a {
+        font-size: 16px;
+    }
+
+    .how-it-work-banner h1 {
+        font-size: 65px;
+        line-height: 84px;
+    }
+
+    .how-it-work-banner .h-container .h-two {
+        flex-direction: column;
+    }
+
+    .vid-sec-btm-bx strong {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .video-frame {
+        height: 300px;
+    }
+
+    .video-frame video {
+        height: calc(100% - 65px);
+        width: calc(100% - 154px);
+        transform: translate(-50%, 27px);
+    }
+
+    .price-slide h2 {
+        writing-mode: unset;
+        transform: rotate(0deg);
+        line-height: 70px;
+        font-size: 60px;
+
+    }
+
+    .price-slide .animate-p-bx {
+        top: 30vh;
+    }
+
+    .price-slide .rtl-text h2 span:nth-child(1) {
+        transform: translateX(600px);
+    }
+
+    .price-slide .rtl-text h2 span:nth-child(2) {
+        transform: translateX(600px);
+    }
+
+    .price-slide .rtl-text h2 span:nth-child(3) {
+        transform: translateX(600px);
+    }
+
+    .price-slide .rtl-text h2 span:nth-child(4) {
+        transform: translateX(600px);
+    }
+
+    .price-slide .rtl-text h2 span:nth-child(5) {
+        transform: translateX(600px);
+    }
+
+    .price-slide .rtl-text h2 span:nth-child(6) {
+        transform: translateX(600px);
+    }
+
+    .price-slide .rtl-text.rtl-animation h2 span {
+        transform: none;
+    }
+
+    .youtube-link span {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .banner .sub-content {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px 0;
+    }
+
+    .banner h1,
+    .sm-banner h1 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .banner h2 {
+        line-height: 42px;
+        font-size: 16px;
+    }
+
+    .banner .sub-content p {
+        font-size: 18px;
+    }
+
+    h2.subtitle {
+        font-size: 28px !important;
+        line-height: 43px !important;
+    }
+
+    .text-hover-animation {
+        padding: 10px 0;
+        height: auto;
+    }
+
+    .video-frame {
+        height: 180px;
+    }
+
+    .video-frame video {
+        height: 138px;
+        width: 217px;
+        transform: translate(-50%, 16px);
+    }
+
+    .p-bottom {
+        padding-bottom: 20px;
+    }
+
+    .p-top {
+        padding-top: 20px;
+    }
+
+    button#playPauseBtn {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .cart-hover-animation .card-bx h3 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .faq-section .faq-header h3 {
+        font-size: 26px;
+        line-height: 41px;
+    }
+
+    .parallax-box-sec .parallax-item h5 {
+        font-size: 22px;
+    }
+
+    .parallax-box-sec .parallax-item p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .slide-section .comp-logo img {
+        max-width: 45px;
+    }
+
+    .accordion .accordion-button {
+        font-size: 16px;
+    }
+
+    .accordion .accordion-button {
+        font-size: 14px;
+    }
+
+    footer h2 {
+        font-size: 41px;
+        line-height: 52px;
+    }
+
+    .animate-btn,
+    .alternate-btn {
+        font-size: 16px;
+        padding: 8px 30px;
+    }
+
+    footer .contact img {
+        margin-right: 10px;
+        max-width: 16px;
+    }
+
+    footer .social-wrap {
+        justify-content: center;
+    }
+
+    footer p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .about-us-header.banner h1 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .grundare-pro .pro-content h3 {
+        font-size: 28px;
+    }
+
+    header .nav-list li a {
+        font-size: 36px;
+    }
+
+    .how-it-work-banner h1 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .how-it-work-banner .h-container p {
+        font-size: 18px;
+    }
+
+    .youtube-link {
+        margin: 30px 0 60px;
+    }
+
+    .vid-sec-btm-bx strong {
+        font-size: 22px;
+        line-height: 46px;
+    }
+
+    .short-conversation .txt_content span {
+        font-size: 18px;
+    }
+
+    .short-conversation .txt_content img {
+        max-width: 18px;
+    }
+
+    .sm-banner strong {
+        font-size: 18px;
+    }
+}
